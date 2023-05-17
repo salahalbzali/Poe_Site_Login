@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+
+}
+.container .card
+{
+    padding: 15px 25px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.content
+{
+    text-align: center;
+}
+.content .logo
+{
+    width: 100px;
+}
+
+.content p
+{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #000000;
+}
+form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+form input
+{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.phone-number p
+{
+    color: #98989a;
+}
+.link
+{
+    text-align: center;
+}
+.link .link-go a
+{
+    display: inline-block;
+    padding: 10px 15px;
+    width: 400px;
+    text-decoration: none;
+    text-align: center;
+    background: #aeaeef;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 10px;
+}
+.link .link-go h4
+{
+    margin-top: 10px;
+    color: #1a1919;
+    font-size: 1rem;
+}
+
+.separator-line
+{
+    width: 400px;
+    height: 1px;
+    background: #a7a7a7;
+    margin-top: 20px;
+    position: relative;
+}
+.separator-line::before
+{
+    content: "or";
+    position: absolute;
+    width: 50px;
+    background: #ffffff;
+    top: -50%;
+    transform: translate(-50%, -50%);
+}
+.continue
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.continue .btn-cont .img-google
+{
+    width: 17px;
+    height: 17px;
+    object-fit: cover;
+    transform: translateY(20%);
+}
+.continue .btn-cont
+{
+    display: inline-block;
+    padding: 10px 15px;
+    width: 400px;
+    border: 1px solid #98989a;
+    border-radius: 30px;
+    margin-top: 2px;
+    text-decoration: none;
+    color: #98989a;
+    font-weight: 500;
+}
+.continue .btn-cont .fa-apple
+{
+    color: #000000;
+    font-size: 20px;
+}
+.continue .btn-cont:hover
+{
+    border: 1px solid #f8a711;
+}
+.footer 
+{
+    margin-top: 10px;
+    text-decoration: none;
+}
+.footer a
+{
+    text-decoration: none;
+    color: #5436fc;
+}
+
+
+

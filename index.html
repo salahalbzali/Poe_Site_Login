@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poe Site Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./build/css/demo.css">
+    <link rel="stylesheet" href="./build/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <img src="./poe.png" class="logo">
+                <p>Fast, helpful AI chat</p>        
+            </div>
+            <div class="phone-number">
+                <form action="">
+                    <input type="tel" id="phone" placeholder=" Phone number">
+                </form>
+                <p>We use your phone for verifiction during each sing in.</p>
+            </div>
+            <div class="link">
+                <div class="link-go">
+                    <a href="#" class="btn">Go</a>
+                    <h4>Use email</h4>
+                </div>
+                <div class="separator-line">
+                    
+                </div>
+                <div class="continue">
+                    <a href="#" class="btn-cont"><img src="./google.png" class="img-google"> Continue with Google</a>
+                    <a href="#" class="btn-cont"><i class="fab fa-apple"></i> Continue with Apple</a>
+                </div>
+                <div class="footer">
+                    <p>By continuing, you are agreeing to <br> Poe's <a href="#" class="service">Trems of Service</a> and <a href="#" class="service">Privacy Policy</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./build/js/intlTelInput.js"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input,{});
+    </script>
+</body>
+</html>
